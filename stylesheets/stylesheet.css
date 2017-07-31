@@ -1,1 +1,67 @@
 
+@import url(http://fonts.googleapis.com/css?family=VT323);
+@import url(http://fonts.googleapis.com/css?family=Aldrich);
+
+#hello{
+    font-family: 'Aldrich', sans-serif;
+    color:white;
+}
+
+#bigbox{
+    text-align:center; 
+    vertical-align:middle;
+}
+
+#container{
+  position: relative;
+
+}
+
+.col-md-3{
+    height: 220px;
+    
+}
+
+
+
+
+#bbong1{
+  display: none;
+}
+
+#bbong2{
+  display: none;
+}
+
+#bbong3{
+  display: none;
+}
+
+
+
+p{
+  font-family: 'VT323',  Monospace;
+  font-size: 17px;
+  color:rgb(231, 232, 255);
+  padding-top:10px;
+  text-align: center;
+}
+
+#pgee1:hover{
+    display:none;
+}
+
+#pgee1:hover + #bbong1{
+  display: block;
+  
+}
+
+
+#pgee2:hover + #bbong2{
+  display: block;
+  
+}
+#pgee3:hover + #bbong3{
+  display: block;
+  
+}
