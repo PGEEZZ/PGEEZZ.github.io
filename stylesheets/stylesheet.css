@@ -1,8 +1,39 @@
-
-@import url(http://fonts.googleapis.com/css?family=VT323);
 @import url(http://fonts.googleapis.com/css?family=Aldrich);
+@import url('https://fonts.googleapis.com/css?family=VT323');
 
+body{
+    background-color: #025fb0 !important;
+}
+
+#whole_box{
+    padding-left: 50px;    
+    padding-top: 20px;
+}
+
+#PGEEZZ_title{
+    font-size: 50px;
+    color: white;
+    padding: 0px;
+    margin: 25px;
+}
 
 .icon_box{
+    float: left;
+    margin-left:20px;
+    margin-right:20px;
+    margin-top:10px;
+    margin-bottom:10px;
+    padding:0px;
+    width: 80px;
+    position: relative; 
+}
 
+.icon_basic{
+    width:70px;
+}
+
+.folder_text{
+    padding: 5px;
+    color: white;
+    text-align: left;
 }
